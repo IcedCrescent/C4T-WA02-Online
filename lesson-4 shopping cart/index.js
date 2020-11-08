@@ -79,3 +79,7 @@ function addToCart(product) {
     alert(`Đã thêm ${product.name} vào giỏ thành công`)
     navbarCart.innerText = `🛒 (${cart.length})`
 }
+
+navbarCart.onclick = function() {
+    window.location = 'cart.html'
+}
